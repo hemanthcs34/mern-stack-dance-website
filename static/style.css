@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+}
+#navbar{
+    background-color: rgb(131 78 38);
+    padding:13px 14px;
+    font-family: "Mozilla Headline", sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding:7px 11px;
+    color:cornsilk;
+}
+#navbar li a:hover{
+    background-color: rgb(250, 182, 11);
+    color: black;
+}
+#introsection{
+    color:rgb(250, 182, 11);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    font-family: "Playwrite HU", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    background: center/cover no-repeat url("/dancehome.jpg");
+    height:753px;
+    background-color: red;
+}
+#introsection div.small{
+    font-size: small;
+}
+#mission{
+    margin:auto;
+    width: 108%;
+    display:block;
+    height:300px;
+    background-color: rgba(208, 180, 40, 0.482);
+}
+#mission h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.card{
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin:23px 22px;
+    height:209px;
+
+}
+.card h3{
+    text-align: center;
+    padding:8px; 
+}
+#sponsers{
+    height:300px;
+    background-color: rgb(227, 231, 129);
+}
+#sponsers h2{
+    text-align: center;
+    padding-top: 10px;
+}
+#footer{
+    height:300px;
+    background-color: black;
+}

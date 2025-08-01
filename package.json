@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pug": "^3.0.3"
+  },
+  "name": "hemanthcs-dance-academia",
+  "version": "1.0.0",
+  "description": "this is a very good website for hemanthcs dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hemanthcs",
+  "license": "ISC"
+}
