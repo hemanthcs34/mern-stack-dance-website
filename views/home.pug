@@ -1,21 +1,11 @@
-doctype html
-html
-  head
-    title hemanthcs dance academia
-    style
-      include ../static/style.css
-  body
-    nav#navbar
-        ul
-            div#logo 
-                img(src= "/dance logo.png")
-                |HDA 
-            li #[a(href="/") Home]
-            li #[a(href="/") About Us] 
-            li #[a(href="/") Services] 
-            li #[a(href="/") Classes Info]
-            li #[a(href="/") Contact Us]
+extends base.pug
 
+block scripts 
+     script(src= '/static/index.js')
+block style
+    style
+        include ../static/style.css
+block content
     section#introsection
         div welcome to hemanthcs dance academia
         div.small Heart beats to dance
@@ -48,8 +38,3 @@ html
             img(src="/dance splogo1.png",alt="sponsers image",class="spimage")
             img(src="/dance sp2 logo.png",alt="sponsers image",class="spimage")
             img(src="/dance sp3 logo.png",alt="sponsers image",class="spimage")
-    footer#footer 
-        | copyright 2025 hemanthcs dance academia.com  |All rights reserved
-    
-    script
-         include ../static/index.js
